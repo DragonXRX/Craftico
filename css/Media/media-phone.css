@@ -1,0 +1,62 @@
+.container {
+    width: 100%;
+}
+
+
+/* Body */
+
+.landing .text p {
+    width: 100%;
+}
+/*  parent  */
+
+.parent .child i {
+    font-size: 40px;
+}
+
+/*  sevices  */ 
+
+.container .logo_spe h1 {
+    font-size: 70px;
+}
+.container .logo_spe p {
+    font-size: 10px;
+}
+
+
+/*  portfolio  */ 
+
+.services {
+    padding: 133px 0; 
+}
+
+.allpro {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+/*  About  */ 
+
+.about .container .cone {
+    flex-direction: column;
+}
+
+.about .container .cone .cone1 {
+    flex-basis: 0%;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.about .container .cone .cone2 {
+    flex-basis: 0%;
+}
+
+.about .container .cone .cone2 .para p {
+    padding: 20px 0;
+}
+
+/*  Contact  */ 
+
+.textles h2 {
+    font-size: 100%;
+}
+

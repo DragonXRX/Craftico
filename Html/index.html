@@ -8,16 +8,16 @@
       <meta name="author" content="achraf benabbou">
       <meta name="descreption" content="The best wesite all the time">
       <!--CSS Fiel page--> 
-      <link rel="stylesheet" href="../css/Css_Page/home.css">
-      <link rel="stylesheet" href="../css/Media/media-phone.css" media="(max-width: 430px)">
-      <link rel="stylesheet" href="../css/Media/media-tablete.css" media="(max-width: 768px)">
-      <link rel="stylesheet" href="../css/Media/media-pc.css" media="(max-width: 900px)">
-      <link rel="stylesheet" href="../css/Media/media-TV.css" media="(max-width: 1260px)">
+      <link rel="stylesheet" href="../Css/css_page/Home.css">
+      <link rel="stylesheet" href="../Css/Media/media_phone.css" media="(max-width: 430px)">
+      <link rel="stylesheet" href="../Css/Media/media_tablete.css" media="(max-width: 768px)">
+      <link rel="stylesheet" href="../Css/Media/media_pc.css" media="(max-width: 900px)">
+      <link rel="stylesheet" href="../Css/Media/media_TV.css" media="(max-width: 1260px)">
       <!--CSS ICON + NAME--> 
-      <link rel="shortcut icon" href="">
-      <title>Template_1</title> 
+      <link rel="shortcut icon" href="../Img/ttlogo.png">
+      <title>Craftico</title> 
       <!--CSS STTINGS-->
-      <link rel="stylesheet" href="../Settings/framework.css">
+      <link rel="stylesheet" href="../Settings/bootstrap.css">
       <link rel="stylesheet" href="../Settings/all.min.css">
       <link rel="stylesheet" href="../Settings/normalize.css">
       <!--GOOGLE FOONTS-->
@@ -28,15 +28,15 @@
 <body>
    <!---->
          <div class="container">
-               <header class="d-f j-s-b a-i-c">
-               <div class="logo"><a href="index.html" name="logo"><img src="../img/logo.png" alt=""></a></div>
-               <div class="links p-r j-e">
-                     <span class="icons d-f f-w-w">
+               <header class="d-flex justify-content-between align-items-center">
+               <div class="logo"><a href="index.html" name="logo"><img src="../Img/logo.png" alt=""></a></div>
+               <div class="links position-relative">
+                     <span class="icons d-flex flex-wrap">
                   <span></span>
                   <span></span>
                   <span></span>
                      </span>
-                     <ul>
+                     <ul class="d-none">
                         <li><a href="#service">Service</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
                         <li><a href="#about">About</a></li>
@@ -46,7 +46,7 @@
                </header>
          </div>
    <!---->
-         <div class="landing p-r">
+         <div class="landing position-relative">
             <div class="text">
                <h1>Hello World</h1> 
                <p>
@@ -57,23 +57,26 @@
          </div>
    <!---->
          <div class="parent">
-                     <div class="container d-f j-s-b a-c-c">
-               <div class="child p-10">
+                     <div class="container d-flex justify-content-between align-content-center">
+               <div class="child p-2">
                   <i class="fa-solid fa-wand-magic-sparkles"></i>
                   <h1>Tell Us Your Idea</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab
+                  <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab
                   </p>
                </div>
-               <div class="child p-10">
+               <div class="child p-2">
                   <i class="fa-regular fa-gem"></i>                  
                   <h1>We Will Do All The Work</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab
+                  <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab
                   </p>
                </div>
-               <div class="child p-10">
+               <div class="child p-2">
                   <i class="fa-solid fa-earth-americas"></i> 
                   <h1>Your Product is Worldwide</h1>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab
+                  <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab
                   </p>
                </div>
                      </div>
@@ -81,12 +84,12 @@
    <!---->
          <div class="services" id="service">
                <div class="container">
-                  <div class="logo_spe p-r">
+                  <div class="logo_spe position-relative">
                      <h1>Service</h1>
-                     <p class="p-a">Don't be busy, be productive</p>
+                     <p class="position-absolute">Don't be busy, be productive</p>
                   </div>
-                  <div class="allColumn d-g">
-                     <div class="col d-f ">
+                  <div class="allColumn d-grid">
+                     <div class="col d-flex">
                         <i class="fa-solid fa-palette"></i>
                            <div class="te1">
                            <h1>Graphic Design</h1>
@@ -95,7 +98,7 @@
                         </p>
                            </div>
                      </div>
-                     <div class="col d-f">
+                     <div class="col d-flex">
                         <i class="fa-regular fa-image"></i>
                         <div class="te1">
                         <h1>Web Design</h1>
@@ -106,10 +109,10 @@
                      </div>
                      <div class="col">
                         <div class="image">
-                           <img src="../img/services.jpg" alt="">
+                           <img src="../Img/services.jpg" alt="">
                         </div>
                      </div>
-                     <div class="col d-f ">
+                     <div class="col d-flex">
                         <i class="fa-regular fa-gem"></i>
                         <div class="te1">
                         <h1>GUI & UX</h1>
@@ -118,7 +121,7 @@
                         </p>
                         </div>
                      </div>
-                     <div class="col d-f">
+                     <div class="col d-flex">
                         <i class="fa-solid fa-laptop-code"></i>
                         <div class="te1">
                         <h1>Web Development</h1>
@@ -133,38 +136,44 @@
    <!---->
          <div class="portfolio" id="portfolio">
             <div class="container">
-               <div class="logo_spe p-r">
+               <div class="logo_spe position-relative">
                   <h1>Portfolio</h1>
-                  <p class="p-a">
+                  <p class="position-absolute">
                      If you do it right, it will last forever.
                   </p>
                </div>
-               <div class="allpro d-g">
+               <div class="allpro d-grid">
                   <div class="chilpr">
                      <div class="imm">
-                     <img src="../img/portfolio-1.jpg" alt="">
+                     <img src="../Img/portfolio-1.jpg" alt="">
                      </div>
                      <div class="tt">
                      <h3>Project Here</h3>
-                     <p>My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
+                     <p>
+                     My creative ability is very difficult to measure because it can manifest in so many surprising and.
+                     </p>
                      </div>
                   </div>
                   <div class="chilpr">
                      <div class="imm">
-                     <img src="../img/portfolio-2.jpg" alt="">
+                     <img src="../Img/portfolio-2.jpg" alt="">
                      </div>
                      <div class="tt">
                      <h3>Project Here</h3>
-                     <p>My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
+                     <p>
+                     My creative ability is very difficult to measure because it can manifest in so many surprising and.
+                     </p>
                      </div>
                   </div>
                   <div class="chilpr">
                      <div class="imm">
-                     <img src="../img/portfolio-3.jpg" alt="">
+                     <img src="../Img/portfolio-3.jpg" alt="">
                      </div>
                      <div class="tt">
                      <h3>Project Here</h3>
-                     <p>My creative ability is very difficult to measure because it can manifest in so many surprising and.</p>
+                     <p>
+                     My creative ability is very difficult to measure because it can manifest in so many surprising and.
+                     </p>
                      </div>
                   </div>
                </div>
@@ -173,20 +182,30 @@
    <!---->
          <div class="about" id="about">
             <div class="container">
-               <div class="logo_spe p-r">
+               <div class="logo_spe position-relative">
                   <h1>About</h1>
-                  <p class="p-a">Less is more work</p>
+                  <p class="position-absolute">Less is more work</p>
                </div>
-               <div class="cone d-f j-s-e">
+               <div class="cone d-flex justify-content-evenly">
                   <div class="cone1">
-                     <img src="../img/about.jpg" alt="">
+                     <img src="../Img/about.jpg" alt="">
                   </div>
-                  <div class="cone2 d-f f-w-w a-s-b">
+                  <div class="cone2 d-flex flex-wrap align-content-between">
                      <div class="para">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nemo neque voluptate tempora velit cum non, fuga vitae architecto delectus sed maxime rerum impedit aliquam obcaecati, aut excepturi iusto laudantium!</p>
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nihil nemo neque voluptate tempora velit cum non,
+                        fuga vitae architecto delectus sed maxime rerum impedit aliquam obcaecati,
+                        aut excepturi iusto laudantium!
+                        </p>
                      </div>
                      <div class="para">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil nemo neque voluptate tempora velit cum non, fuga vitae architecto delectus sed maxime rerum impedit aliquam obcaecati, aut excepturi iusto laudantium!</p>
+                        <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nihil nemo neque voluptate tempora velit cum non,
+                        fuga vitae architecto delectus sed maxime rerum impedit aliquam obcaecati,
+                        aut excepturi iusto laudantium!
+                        </p>
                      </div>
                   </div>
                </div>
@@ -195,16 +214,16 @@
    <!---->
          <div class="contact" id="contact">
             <div class="container">
-               <div class="logo_spe p-r">
+               <div class="logo_spe position-relative">
                <h1>Contact</h1>
-               <p class="p-a">We are born to create</p>
+               <p class="position-absolute">We are born to create</p>
                </div>
-               <div class="textles t-c">
+               <div class="textles text-center">
                   <h1>Feel free to drop us a line at:</h1>
-                  <h2 class="mb-20">achrafbenabbou729@gmail.com</h2>
-                     <div class="socialM d-f j-s-b">
+                  <h2 class="mb-3">Craftico@gmail.com</h2>
+                     <div class="socialM d-flex justify-content-between">
                   <p>Find Us On Social Networks</p>
-                  <div class="ico d-f j-s-b">
+                  <div class="ico d-flex justify-content-between">
                      <i class="fa-brands fa-facebook-f"></i>
                      <i class="fa-brands fa-youtube"></i>
                      <i class="fa-brands fa-twitter"></i>
@@ -215,9 +234,11 @@
          </div>
    <!---->
          <footer>
-            <p>&copy; 2024 <span>Achraf</span> All Right Reserved</p>
+            <p></p>
          </footer>
    <!---->
-
+<!---->
+   <script src="../javaScript/java.js"></script>
+<!---->
 </body>
 </html>
